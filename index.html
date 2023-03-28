@@ -35,6 +35,39 @@ window.dataLayer.push({
 <script>
             window.dataLayer = window.dataLayer || [];
             dataLayer.push({
+                  'event' :  'add_to_cart',
+                  'item_id': "ITM_14405",
+            
+     ' item_name':"Macbook air M2"
+
+     ' affiliation':"Google Merchandise Store"
+
+     'currency':"INR"
+
+      'discount':"4000"
+
+      'item_brand':"APPLE"
+
+      'item_category':"LAPTOP"
+
+      'item_category2':"PHONE"
+
+      'item_category3':"AIRPOD"
+
+      'item_category4':"IPAD"
+
+      'item_variant':"Online"
+
+      'location_id':"gvwgduyioioqw801uh"
+
+      'price':"1,13,570"
+
+      'quantity':"1"
+                
+    
+            
+            window.dataLayer = window.dataLayer || [];
+            dataLayer.push({
                   'event' :  'view_item_list',
                   'item_id': "ITM_12345",
 
@@ -127,6 +160,7 @@ window.dataLayer.push({
     <div>This is where the purchase form would go</div>
     <button id="purchase">Purchase</button>
     <button id="view_item_list">Viewitems</button>
+    <button id="add_to_cart">AddCart</button>
     <script>
     document.getElementById("purchase").addEventListener("click", function () {
         gtag("event", "purchase", {
